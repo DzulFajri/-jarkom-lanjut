@@ -1,25 +1,34 @@
 Implementasi Topologi Jaringan VLAN dan Routing Antar Router
 
-Proyek ini merupakan implementasi jaringan menggunakan Cisco Router dan Switch dengan penerapan VLAN (Virtual Local Area Network), Trunking, dan Routing Antar VLAN (Router-on-a-Stick).
-Topologi terdiri dari dua router (sebagai ISP dan gateway), satu switch managed, dan beberapa perangkat client yang dibagi ke dalam lima VLAN utama.
+--------------------------------------------------------
+DESKRIPSI SINGKAT
+--------------------------------------------------------
+Proyek ini merupakan implementasi jaringan menggunakan perangkat 
+Cisco Router dan Switch Managed dengan penerapan VLAN (Virtual Local 
+Area Network), Trunking, serta Routing Antar VLAN (Router-on-a-Stick).
+Topologi jaringan dirancang untuk memisahkan beberapa segmen jaringan 
+internal dan menghubungkannya melalui koneksi antar router yang berperan 
+sebagai ISP dan gateway utama.
 
-Tujuan
+--------------------------------------------------------
+TUJUAN
+--------------------------------------------------------
+1. Menerapkan konsep VLAN untuk segmentasi jaringan.
+2. Menghubungkan antar VLAN melalui router gateway.
+3. Mengintegrasikan jaringan internal dengan koneksi antar router (ISP).
+4. Meningkatkan efisiensi dan keamanan jaringan melalui manajemen VLAN.
 
-Membangun jaringan yang tersegmentasi dan efisien.
+--------------------------------------------------------
+HASIL IMPLEMENTASI
+--------------------------------------------------------
+- Semua VLAN (10–50) berhasil dikonfigurasi dan saling terhubung.
+- Koneksi antar router (192.168.100.0/30) berjalan dengan baik.
+- Semua interface menunjukkan status up (hijau) pada simulasi Cisco Packet Tracer.
+- Komunikasi antar VLAN dan koneksi ke jaringan ISP berfungsi sesuai rancangan.
 
-Menghubungkan antar VLAN melalui router gateway.
-
-Mengintegrasikan jaringan lokal dengan koneksi ISP.
-
-Hasil
-
-Semua VLAN (10–50) terhubung dan dapat berkomunikasi antar-segmen.
-
-Koneksi antar-router berhasil dengan alamat 192.168.100.0/30.
-
-Semua perangkat menunjukkan status up/hijau pada simulasi Packet Tracer.
-
-Kesimpulan
-
-Jaringan berhasil diimplementasikan dengan baik menggunakan konsep VLAN dan routing antar router.
-Seluruh perangkat dapat saling berkomunikasi dan mengakses jaringan secara optimal.
+--------------------------------------------------------
+KESIMPULAN
+--------------------------------------------------------
+Implementasi topologi jaringan VLAN dan routing antar router berhasil 
+dilakukan dengan baik. Seluruh perangkat dapat saling berkomunikasi antar 
+segmen jaringan, dan koneksi berjalan optimal sesuai konfigurasi yang dirancang.
